@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -11,14 +9,14 @@ function App() {
       <div>
       <table>
         <tr>
-	        <td style="background-color: White; width: 40%; vertical-align: top;">
+	        <td>
             <h1>Incident Management</h1>
             <h3>What is the purpose of Incident Mangement</h3>
             <p>To minimise the impacts of incidents on the business. Quick identification and resolution of production outages have a direct impact on the Net Promoter Score (NPS)</p>
             <h3>Customer Lens</h3>
             <p>I want my issues to be quickly resolved and not recur</p>
           </td>
-          <td rowspan=2 style="background-color: Gold; width: 60%;  vertical-align: top;">
+          <td>
             <h1>&nbsp;</h1>
             <h3>Defininition:</h3>
             <p>An <b>Incident is an event which is not part of the standard operation of a service</b> and which causes or may cause disruption to or a reduction in the quality of services and customer productivity. </p>
@@ -27,7 +25,7 @@ function App() {
           </td>
         </tr>
         <tr>
-          <td style="background-color:lightGray;">
+          <td>
             <h3>What Does Good Look Like</h3>
             <p>Firstly ensure the incident is clearly described, be specific. Getting the incident to the right support team early is critical to achieve a fast resolution.</p>
             <p>Configure your support teams and deadlines to meet your Availability Objective</p>
