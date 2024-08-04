@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+.body {
+  font-family: Tahoma, Verdana, sans-serif;
+}
+.table {
+  border: 1px solid lightgray;
+  padding: 25px;
+  vertical-align: top;
+}
+.td {
+  padding: 25px;
+  vertical-align: top;
+}
