@@ -13,16 +13,19 @@ function App() {
  
       <table>
         <tr>
-          <td align="left" style={{backgroundColor: "white"}}>
+          <td>
+            <div align="left" style={{backgroundColor: "white"}}> 
             <h2>Incident Management</h2>
             <h3>What is the purpose of Incident Mangement</h3>
             <p>To minimise the impacts of incidents on the business by restoring normal service operation as quickly as possible.</p>
             <h3>Defininition of an Incident</h3>
             <p>An <b>Incident is an event which is not part of the standard operation of a service</b> and which causes or may cause disruption to or a reduction in the quality of services and customer productivity. </p>
             <p>It can also refer to an event that has not yet impacted the service but has the potential to do so. Incidents may arise from various factors, including hardware or software failures, network outages, cyber-attacks, or human errors. </p>
+            </div>
           </td>
-          <td className="b" align="left" rowSpan={2} style={{backgroundColor: "Gold"}}>
-            <h3>Customer Lens</h3>
+          <td rowSpan={2}>
+          <div align="left" style={{backgroundColor: "Gold"}}> 
+          <h3>Customer Lens</h3>
             <p>I want my issues to be quickly resolved and not recur</p>
             <h3>What Does Good Look Like</h3>
             <ol>
@@ -33,16 +36,19 @@ function App() {
               <li>The team working on the incident have a simple but effective way to communicate the expected outage duration to the customers impacted by the incident. The team are aware of how an outage can impact the customers that depend on this service. </li>
               <li>If this is an instance of a critical outage (P1/P2), or a repeated outage then the incident is classified as a Problem, is linked to an existing Problem record or registered in Problem Management so we can work on making sure the incident never occurs again. </li>
             </ol>
+            </div>
           </td>
         </tr>
         <tr>
-          <td align="left" style={{backgroundColor: "lightGray"}}>
+          <td>
+            <div align="left" style={{backgroundColor: "lightGray"}}>
             <h3>Process</h3>
             <p>1. Incident is detected (observability) or reported to the service desk and the event raised in Incident Mangement system.</p>
             <p>2. Level 1 Support assess the severity and impact of the event to assign the priority (P1, P2, P3, P4) </p>
             <p>3. The incident occurrence is defined in detail and triaged to ensure it is assigned to the right team.</p>
             <p>4. If there is no obvious quick resolution the ticket is assigned to Level 2 support.</p>
             <p>5. The support team investigates the technical cause of the incident, and searches for Knowledge Articles that may fit the events for instruction on how to recover the service.</p>
+            </div>
           </td>
         </tr>
       </table>

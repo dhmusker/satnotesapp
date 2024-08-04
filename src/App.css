@@ -1,25 +1,21 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem;
   text-align: left;
   font-family: Tahoma, Verdana, sans-serif;
   vertical-align: top;
 }
 table {
   border: 1px solid lightgray;
-  padding: 0px;
   border-radius: 20px;
 }
-tr {
-  border: 0px solid lightgray;
-  padding: 0px;
+div {
+  border-radius: 20px;
+  padding: 1rem;
+  vertical-align: text-top;
 }
 td {
-  border-radius: 20px;
-  border-collapse: collapse;
-  border: 0px solid lightgray;
-  padding: 25px;
-  vertical-align: top;
-  background-color: gold; width: 40%; vertical-align: top;
+  vertical-align: text-top;
+}
+li {
+  padding: 1rem;
 }

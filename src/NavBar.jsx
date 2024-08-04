@@ -75,7 +75,7 @@ const NavBar = () => {
 
   return (
     <Nav>
-      <Logo>Incident Management</Logo>
+      <Logo>Service Management Reference</Logo>
       <MobileNavToggle onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}>
         {isMobileNavOpen ? 'Close' : 'Menu'}
       </MobileNavToggle>
