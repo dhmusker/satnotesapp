@@ -1,10 +1,16 @@
 import { useState } from 'react'
 import './App.css'
+import NavBar from './NavBar'
+import styled from 'styled-components';
+
+const AppContainer = styled.div` max-width: 1200px; margin: 0 auto;`;
 
 function App() {
 
   return (
-      <div>
+    <AppContainer>
+      <NavBar />
+ 
       <table>
         <tr>
           <td align="left" style={{backgroundColor: "white"}}>
@@ -50,7 +56,7 @@ function App() {
             <p>Each level of support needs to know how to recognise what they can do to recover, and what they cant, and assess what to do next.</p>
             <p>Early incident resolution can be improved by ensuring every Known Error is documented in a Knowledge Article and that article must be linked to the Service Offering and easily found in a search for keywords.</p>
             <p>Every Knowledge Article must describe how to recognise the specific problem, so you can recognise that this is the answer, and provide the steps to quickly recover from that problem.</p>                
-    </div>
+    </AppContainer>
   )
 }
 
