@@ -32,7 +32,6 @@ function App() {
               <li>Every subsequent incident occurance after the initial event, including from another impacted service, can be related to the initial incident record so that the blast radius of the event can be recognised and reported on. </li>
               <li>The team working on the incident have a simple but effective way to communicate the expected outage duration to the customers impacted by the incident. The team are aware of how an outage can impact the customers that depend on this service. </li>
               <li>If this is an instance of a critical outage (P1/P2), or a repeated outage then the incident is classified as a Problem, is linked to an existing Problem record or registered in Problem Management so we can work on making sure the incident never occurs again. </li>
-              <li> </li>
             </ol>
           </td>
         </tr>

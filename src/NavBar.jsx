@@ -5,9 +5,10 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: rgb(80,80,80);
   color: #fff;
   padding: 1rem;
+  border-radius: 20px;
 `;
 
 const NavItem = styled.li`
@@ -74,7 +75,7 @@ const NavBar = () => {
 
   return (
     <Nav>
-      <Logo>My Logo</Logo>
+      <Logo>Incident Management</Logo>
       <MobileNavToggle onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}>
         {isMobileNavOpen ? 'Close' : 'Menu'}
       </MobileNavToggle>
